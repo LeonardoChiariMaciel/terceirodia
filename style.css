@@ -1,3 +1,7 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 #header {
     display : flex;
 }
@@ -6,6 +10,7 @@
     color: #426B1F;
     font-size: 32px;
     font-family: 'Newsreader', serif;
+    font-weight: 500;
     left: 20px;
     margin-left: 40px;
 
@@ -30,6 +35,11 @@
     list-style: none;
 }
 
+#links li a{
+    color: #000;
+    text-decoration: none;
+}
+
 #individual {
     margin-right: 20px;
 }
@@ -39,7 +49,10 @@
     height: 48px;
     background-color: #426B1F;
     border: none;
-    border-radius: 8px
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
@@ -51,29 +64,35 @@
 
 .produtos-header {
     display: flex;
-    flex-direction: row;
-    position: relative;
-    justify-content: left;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 40px 40px 40px;
     border-bottom: 1px solid #828282;
-    margin-bottom: 40px;
-    padding-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+    border-top: 1px solid #828282;
+    padding-bottom: 1px;
+    padding-top: 2px;
 }
 
 .produtos-info{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: baseline;
     gap: 10px;
 }
 
+.produtos-info h2 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.produtos-info p {
+    font-size: 20px;
+}
 
 .agrupador {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: absolute;
     right: 10px;
 }
 
