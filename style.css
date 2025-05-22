@@ -6,7 +6,8 @@
     color: #426B1F;
     font-size: 32px;
     font-family: 'Newsreader', serif;
-    left: 20px;;
+    left: 20px;
+    margin-left: 40px;
 
 }
 
@@ -16,6 +17,7 @@
     justify-content: space-between;
     position: absolute;
     right: 20px;
+    margin-right: 40px;
 }
 
 #links {
@@ -40,11 +42,32 @@
     border-radius: 8px
 }
 
+
+
+
+
+
+
+
 .produtos-header {
     display: flex;
     flex-direction: row;
-    justify-content: left
+    position: relative;
+    justify-content: left;
+    border-bottom: 1px solid #828282;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+
+.produtos-info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+}
+
 
 .agrupador {
     display: flex;
@@ -69,8 +92,10 @@
 }
 
 .produtos-container {
+    margin-left: 40px;
     display: flex;
     flex-direction: row;
+    margin-right: 40px;
 }
 
 .caixa {
@@ -113,5 +138,6 @@
 .produtos-info {
     display: flex;
     flex-direction: row;
-    
 }
+
+
